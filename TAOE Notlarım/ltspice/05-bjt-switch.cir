@@ -1,0 +1,9 @@
+* BJT low-side switch concept
+Vcc vcc 0 DC 12
+Vin base_drive 0 PULSE(0 5 0 1u 1u 5m 10m)
+Rb base_drive base 4.7k
+Q1 load base 0 QNPN
+Rload vcc load 240
+.model QNPN NPN(Bf=100 Vaf=100 Is=1e-14)
+.tran 0 30m 0 10u
+.end

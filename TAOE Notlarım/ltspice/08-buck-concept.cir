@@ -1,0 +1,12 @@
+* Very simplified buck converter concept with ideal switch/diode
+Vin vin 0 DC 28
+Vgate gate 0 PULSE(0 1 0 20n 20n 5u 10u)
+S1 vin sw gate 0 SWMOD
+D1 0 sw DGEN
+L1 sw out 100u
+C1 out 0 47u
+Rload out 0 10
+.model SWMOD SW(Ron=0.05 Roff=1Meg Vt=0.5 Vh=0.1)
+.model DGEN D(Rs=0.05 Vfwd=0.7)
+.tran 0 5m 0 100n
+.end

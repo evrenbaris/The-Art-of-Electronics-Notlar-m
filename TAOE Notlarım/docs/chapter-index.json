@@ -1,0 +1,213 @@
+{
+  "01-foundations": {
+    "title_tr": "Temeller",
+    "title_en": "Foundations",
+    "topics": [
+      "Gerilim, Akım ve Direnç",
+      "Ohm Kanunu ve Güç",
+      "Seri ve Paralel Dirençler",
+      "Gerilim Bölücü",
+      "Thevenin ve Norton Eşdeğerleri",
+      "Sinyaller, Genlik ve dB",
+      "Kapasitörler ve RC Devreler",
+      "Türevleyici ve İntegratör",
+      "Endüktörler ve Transformatörler",
+      "Diyotlar ve Doğrultma",
+      "Empedans ve Reaktans",
+      "Pasif Komponent Seçimi"
+    ]
+  },
+  "02-bipolar-transistors": {
+    "title_tr": "BJT Transistörler",
+    "title_en": "Bipolar Transistors",
+    "topics": [
+      "BJT modelleri",
+      "Transistör Anahtar",
+      "Emitter Follower",
+      "BJT Akım Kaynağı",
+      "Common-Emitter Amplifier",
+      "Diferansiyel Çift",
+      "BJT Devrelerinde Geri Besleme",
+      "BJT Tasarım Hataları"
+    ]
+  },
+  "03-field-effect-transistors": {
+    "title_tr": "FET ve MOSFET",
+    "title_en": "Field-Effect Transistors",
+    "topics": [
+      "FET Temelleri",
+      "JFET Akım Kaynağı",
+      "FET Yükselteçler",
+      "FET Analog Anahtarlar",
+      "Power MOSFET Anahtar",
+      "Gate Drive",
+      "Lineer MOSFET Kullanımı",
+      "MOSFET Hataları"
+    ]
+  },
+  "04-operational-amplifiers": {
+    "title_tr": "Operasyonel Yükselteçler",
+    "title_en": "Operational Amplifiers",
+    "topics": [
+      "İdeal Op-Amp Kuralları",
+      "Inverting ve Non-Inverting",
+      "Buffer ve Difference Amplifier",
+      "Op-Amp Akım Kaynakları",
+      "Single-Supply Op-Amp",
+      "Op-Amp Gerçek Davranışı",
+      "Kararlılık ve Kompanzasyon",
+      "Aktif Doğrultucu ve Peak Detector",
+      "Op-Amp Seçim Rehberi"
+    ]
+  },
+  "05-precision-circuits": {
+    "title_tr": "Hassas Devreler",
+    "title_en": "Precision Circuits",
+    "topics": [
+      "Hata Bütçesi",
+      "Direnç Toleransı ve Drift",
+      "Offset ve Bias Current",
+      "CMRR ve PSRR",
+      "Settling, Slew Rate ve Dinamik Hata",
+      "Instrumentation Amplifier",
+      "Fully Differential Amplifier",
+      "Kalibrasyon ve Test"
+    ]
+  },
+  "06-filters": {
+    "title_tr": "Filtreler",
+    "title_en": "Filters",
+    "topics": [
+      "Filtre Temelleri",
+      "Pasif RC/LC Filtreler",
+      "Aktif Filtreler",
+      "Butterworth, Bessel, Chebyshev",
+      "Notch ve All-Pass",
+      "Dijital Filtreleme"
+    ]
+  },
+  "07-oscillators-and-timers": {
+    "title_tr": "Osilatörler ve Zamanlayıcılar",
+    "title_en": "Oscillators and Timers",
+    "topics": [
+      "Osilasyon Koşulu",
+      "Relaxation Oscillator",
+      "555 ve Monostable",
+      "Sinüs Osilatörleri",
+      "Kristal Osilatörler",
+      "PLL ve DDS"
+    ]
+  },
+  "08-low-noise-techniques": {
+    "title_tr": "Düşük Gürültü Teknikleri",
+    "title_en": "Low-Noise Techniques",
+    "topics": [
+      "Gürültü Türleri",
+      "SNR ve Noise Figure",
+      "BJT Gürültüsü",
+      "JFET/FET Gürültüsü",
+      "Op-Amp Gürültü Hesabı",
+      "Transimpedance Amplifier",
+      "Shielding ve Grounding",
+      "Gürültü Ölçümü"
+    ]
+  },
+  "09-voltage-regulation-and-power-conversion": {
+    "title_tr": "Regülasyon ve Güç Dönüşümü",
+    "title_en": "Voltage Regulation and Power Conversion",
+    "topics": [
+      "Lineer Regülatörler",
+      "LDO Kararlılığı",
+      "Isı ve SOA",
+      "Buck/Boost Temelleri",
+      "İzole Dönüştürücüler",
+      "Switcher Layout",
+      "Voltage Reference",
+      "Batarya ve Enerji Depolama",
+      "Koruma Devreleri",
+      "Power Tree Tasarımı"
+    ]
+  },
+  "10-digital-logic": {
+    "title_tr": "Dijital Mantık",
+    "title_en": "Digital Logic",
+    "topics": [
+      "Logic Seviyeleri",
+      "Kombinasyonel Mantık",
+      "Sequential Logic",
+      "Senkronizer ve Metastability",
+      "Sayaçlar ve Timing",
+      "CMOS Güç Tüketimi",
+      "Logic Patolojileri"
+    ]
+  },
+  "11-programmable-logic-devices": {
+    "title_tr": "Programlanabilir Mantık",
+    "title_en": "Programmable Logic Devices",
+    "topics": [
+      "PAL/PLA Mantığı",
+      "FPGA Temelleri",
+      "HDL ile Donanım Düşünme",
+      "LFSR ve PRBS",
+      "FPGA Tasarım Tavsiyesi"
+    ]
+  },
+  "12-logic-interfacing": {
+    "title_tr": "Logic Arayüzleme",
+    "title_en": "Logic Interfacing",
+    "topics": [
+      "Logic Family Arayüzleme",
+      "Giriş Koruma",
+      "Comparator Kullanımı",
+      "Harici Yük Sürme",
+      "Optokuplör ve İzolasyon",
+      "Fiber Optik Linkler",
+      "Uzun Kablolar",
+      "RS-232 / RS-485",
+      "Kablo Sürme Kontrol Listesi"
+    ]
+  },
+  "13-digital-meets-analog": {
+    "title_tr": "Dijital Analog ile Buluşur",
+    "title_en": "Digital Meets Analog",
+    "topics": [
+      "DAC Temelleri",
+      "R-2R ve Current Steering DAC",
+      "PWM ile DAC",
+      "ADC Temelleri",
+      "Örnekleme ve Aliasing",
+      "SAR ADC",
+      "Delta-Sigma ADC",
+      "ADC Sürme Devresi",
+      "PLL Temelleri",
+      "PRBS ve Dijital Gürültü"
+    ]
+  },
+  "14-computers-controllers-data-links": {
+    "title_tr": "Bilgisayarlar, Kontrolcüler ve Veri Bağları",
+    "title_en": "Computers Controllers Data Links",
+    "topics": [
+      "Bilgisayar Mimarisi",
+      "Memory Türleri",
+      "Paralel Buslar",
+      "SPI",
+      "I2C",
+      "JTAG",
+      "RS-485, CAN ve Ethernet",
+      "Sayı Formatları"
+    ]
+  },
+  "15-microcontrollers": {
+    "title_tr": "Mikrodenetleyiciler",
+    "title_en": "Microcontrollers",
+    "topics": [
+      "MCU Seçimi",
+      "GPIO ve Timer",
+      "MCU ADC/DAC Periferikleri",
+      "UART/SPI/I2C/CAN",
+      "Gerçek Zamanlı Firmware",
+      "Bring-up ve Debug",
+      "MCU Donanım Kontrol Listesi"
+    ]
+  }
+}

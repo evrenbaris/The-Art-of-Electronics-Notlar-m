@@ -1,0 +1,9 @@
+* Ideal inverting amplifier using voltage-controlled source
+Vin in 0 SINE(0 0.1 1k)
+Rin in nminus 10k
+Rf out nminus 100k
+Eop out 0 0 nminus 1e6
+Rload out 0 10k
+.tran 0 5m 0 1u
+.ac dec 100 10 1Meg
+.end

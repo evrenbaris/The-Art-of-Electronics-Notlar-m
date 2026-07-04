@@ -1,0 +1,8 @@
+* Half-wave rectifier concept
+V1 in 0 SINE(0 10 50)
+D1 in out Dgeneric
+Rload out 0 1k
+C1 out 0 100u
+.model Dgeneric D(Is=1n Rs=0.5 N=1.8)
+.tran 0 200m 0 100u
+.end

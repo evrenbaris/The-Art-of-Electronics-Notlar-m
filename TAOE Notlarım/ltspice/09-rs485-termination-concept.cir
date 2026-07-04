@@ -1,0 +1,8 @@
+* Differential termination concept (lumped approximation)
+V1 a 0 PULSE(0 2 0 10n 10n 500n 1u)
+V2 b 0 PULSE(2 0 0 10n 10n 500n 1u)
+Ra a ap 10
+Rb b bp 10
+Rterm ap bp 120
+.tran 0 3u 0 1n
+.end
